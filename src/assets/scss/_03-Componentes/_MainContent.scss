@@ -1,0 +1,102 @@
+.mainContent {
+  padding: 40px;
+  background-color: #fded56;
+
+  .sectionTitle {
+    font-size: 2rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .bannerSection {
+    .carouselItem {
+      overflow: hidden;
+  
+      img {
+        width: 100%;
+        max-height: 250px;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+    }
+  }
+  
+  .offersSection,
+  .newArrivalsSection {
+    margin-top: 40px;
+
+    .offersGrid,
+    .productsGrid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .offerItem,
+    .productItem {
+      background-color: #ffe600;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      color: #000000;
+
+      .offerImage,
+      .productImage {
+        max-width: 80%;
+        height: auto;
+        margin-bottom: 15px;
+        border-radius: 8px;
+      }
+
+      .offerTitle,
+      .productTitle {
+        font-size: 1.5rem;
+        color: #000000;
+        margin-bottom: 10px;
+      }
+
+      .offerDescription,
+      .productDescription {
+        font-size: 1rem;
+        color: #555;
+      }
+    }
+  }
+}
+
+.subscriptionSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+
+  .productImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .subscribeButton {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    background-color: #ffae00;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.my-toast-container {
+  .Toastify__toast {
+    background-color: #fff6a4;
+    color: #333;
+    border-radius: 8px;
+  }
+
+  .Toastify__toast--success {
+    background-color: #4caf50;
+  }
+}

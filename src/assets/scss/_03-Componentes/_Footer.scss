@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+/* Estilos generales del Footer */
+.footer-container {
+  display: grid;
+  grid-template-rows: auto auto; /* Define dos filas: una para el contenido y otra para el footer */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background:  #ffd00070; 
+  // background-image: url(../_01-General/../../../../img/00-fondos/fondo4a.jpg);
+  border-radius: 20px;
+  box-shadow: 0 0px 200px rgba(255, 145, 0, 0.63);
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+
+  @media (min-width: 769px) {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+.footer-column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .footer-logo {
+    width: 150px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: medium;
+  color: rgba(111, 0, 255, 0.63);
+
+  a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #c5c5c5;
+    }
+  }
+
+  @media (min-width: 769px) {
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+.trademarkFooter {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 0;
+  font-family: 'Cinzel Decorative', serif; /* Aplica la tipografía importada */
+
+}
+
+.tituloImportanteFooter4 {
+  font-size: 1.2em; /* Ajusta el tamaño del texto para que destaque */
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: medium;
+    
+    &:hover {
+      color: #000000; /* Cambia el color en hover */
+    }
+  }
+}

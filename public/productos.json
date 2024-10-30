@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "nombre": "Celular Samsung Galaxy S10 - Usado",
+    "precio": 25000,
+    "imagenes": [
+      "/img/06-tienda/celular1-a.png",
+      "/img/06-tienda/celular1-b.png",
+      "/img/06-tienda/celular1-c.png"
+    ],
+    "categoria": "celulares",
+    "descripcion": "Celular Samsung Galaxy S10 usado, en buen estado con ligeros signos de uso. Incluye cargador original."
+  },
+  {
+    "id": 2,
+    "nombre": "Ventilador de Pie - Seminuevo",
+    "precio": 12000,
+    "imagenes": [
+      "/img/06-tienda/ventilador-a.png",
+      "/img/06-tienda/ventilador-b.png",
+      "/img/06-tienda/ventilador-c.png"
+    ],
+    "categoria": "hogar",
+    "descripcion": "Ventilador de pie usado, ideal para refrescar tu hogar en verano. En perfecto estado."
+  },
+  {
+    "id": 3,
+    "nombre": "Auto Toyota Corolla - Modelo 2015",
+    "precio": 750000,
+    "imagenes": [
+      "/img/06-tienda/auto1-a.png",
+      "/img/06-tienda/auto1-b.png",
+      "/img/06-tienda/auto1-c.png"
+    ],
+    "categoria": "vehículos",
+    "descripcion": "Toyota Corolla modelo 2015, bien mantenido y en excelentes condiciones. Color gris."
+  },
+  {
+    "id": 4,
+    "nombre": "Televisor Samsung 32\" LED - Segunda Mano",
+    "precio": 15000,
+    "imagenes": [
+      "/img/06-tienda/tv1-a.png",
+      "/img/06-tienda/tv1-b.png",
+      "/img/06-tienda/tv1-c.png"
+    ],
+    "categoria": "electrónica",
+    "descripcion": "Televisor Samsung de 32 pulgadas con tecnología LED. Imagen nítida y con puerto HDMI."
+  },
+  {
+    "id": 5,
+    "nombre": "Guitarra Acústica - Usada",
+    "precio": 18000,
+    "imagenes": [
+      "/img/06-tienda/guitarra-a.png",
+      "/img/06-tienda/guitarra-b.png",
+      "/img/06-tienda/guitarra-c.png"
+    ],
+    "categoria": "instrumentos",
+    "descripcion": "Guitarra acústica en buen estado. Ideal para principiantes y músicos intermedios."
+  },
+  {
+    "id": 6,
+    "nombre": "Juego de Herramientas Completo - Usado",
+    "precio": 8000,
+    "imagenes": [
+      "/img/06-tienda/herramientas-a.png",
+      "/img/06-tienda/herramientas-b.png",
+      "/img/06-tienda/herramientas-c.png"
+    ],
+    "categoria": "herramientas",
+    "descripcion": "Set de herramientas usado en excelente estado, incluye martillo, destornilladores y llaves."
+  },
+  {
+    "id": 7,
+    "nombre": "Cámara Réflex Canon - Modelo T6i",
+    "precio": 40000,
+    "imagenes": [
+      "/img/06-tienda/camara1-a.png",
+      "/img/06-tienda/camara1-b.png",
+      "/img/06-tienda/camara1-c.png"
+    ],
+    "categoria": "fotografía",
+    "descripcion": "Cámara réflex usada, perfecta para fotógrafos aficionados. Incluye lente de 18-55mm."
+  },
+  {
+    "id": 8,
+    "nombre": "Cubre Asientos de Auto - Usados",
+    "precio": 7000,
+    "imagenes": [
+      "/img/06-tienda/asientos-a.png",
+      "/img/06-tienda/asientos-b.png",
+      "/img/06-tienda/asientos-c.png"
+    ],
+    "categoria": "vehículos",
+    "descripcion": "Cubre asientos para auto en buen estado. Color negro y ajustables a diferentes modelos."
+  },
+  {
+    "id": 9,
+    "nombre": "Licuadora Oster - Segunda Mano",
+    "precio": 4500,
+    "imagenes": [
+      "/img/06-tienda/licuadora-a.png",
+      "/img/06-tienda/licuadora-b.png",
+      "/img/06-tienda/licuadora-c.png"
+    ],
+    "categoria": "hogar",
+    "descripcion": "Licuadora Oster usada, excelente para preparar jugos y smoothies."
+  },
+  {
+    "id": 10,
+    "nombre": "Computadora Portátil Dell Inspiron",
+    "precio": 32000,
+    "imagenes": [
+      "/img/06-tienda/laptop-a.png",
+      "/img/06-tienda/laptop-b.png",
+      "/img/06-tienda/laptop-c.png"
+    ],
+    "categoria": "computación",
+    "descripcion": "Laptop Dell Inspiron de segunda mano en buen estado. Ideal para trabajo y estudio."
+  },
+  {
+    "id": 11,
+    "nombre": "Lavadora LG - Seminueva",
+    "precio": 30000,
+    "imagenes": [
+      "/img/06-tienda/lavadora-a.png",
+      "/img/06-tienda/lavadora-b.png",
+      "/img/06-tienda/lavadora-c.png"
+    ],
+    "categoria": "electrodomésticos",
+    "descripcion": "Lavadora automática LG, con capacidad de 10 kg. Perfecta para el uso diario."
+  },
+  {
+    "id": 12,
+    "nombre": "Bicicleta de Montaña - Usada",
+    "precio": 18000,
+    "imagenes": [
+      "/img/06-tienda/bici-a.png",
+      "/img/06-tienda/bici-b.png",
+      "/img/06-tienda/bici-c.png"
+    ],
+    "categoria": "deportes",
+    "descripcion": "Bicicleta de montaña en buen estado, perfecta para aventuras al aire libre."
+  },
+  {
+    "id": 13,
+    "nombre": "Aspiradora Electrolux - Segunda Mano",
+    "precio": 12000,
+    "imagenes": [
+      "/img/06-tienda/aspiradora-a.png",
+      "/img/06-tienda/aspiradora-b.png",
+      "/img/06-tienda/aspiradora-c.png"
+    ],
+    "categoria": "electrodomésticos",
+    "descripcion": "Aspiradora de segunda mano en buen estado, ideal para mantener tu hogar limpio."
+  },
+  {
+    "id": 14,
+    "nombre": "Tablet Samsung Galaxy Tab A - Usada",
+    "precio": 15000,
+    "imagenes": [
+      "/img/06-tienda/tablet-a.png",
+      "/img/06-tienda/tablet-b.png",
+      "/img/06-tienda/tablet-c.png"
+    ],
+    "categoria": "electrónica",
+    "descripcion": "Tablet Samsung usada, ideal para leer, ver videos y uso básico de apps."
+  },
+  {
+    "id": 15,
+    "nombre": "Cochecito de Bebé - Segunda Mano",
+    "precio": 10000,
+    "imagenes": [
+      "/img/06-tienda/coche-a.png",
+      "/img/06-tienda/coche-b.png",
+      "/img/06-tienda/coche-c.png"
+    ],
+    "categoria": "bebés",
+    "descripcion": "Cochecito de bebé en buen estado, cómodo y seguro para tu pequeño."
+  }
+]

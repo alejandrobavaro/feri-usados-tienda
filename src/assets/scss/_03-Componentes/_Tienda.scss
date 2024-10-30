@@ -1,0 +1,15 @@
+// src/assets/scss/_03-Componentes/_Tienda.scss
+
+// General
+.tienda {
+  padding: 20px;
+  box-shadow: 0 10px 30px rgb(255, 205, 148); // Sombra más intensa
+  border-radius: 20px;
+}
+
+// Container
+.tienda-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,138 @@
+.promos-grid-container {
+  padding: 5px;
+  background-color: rgba(255, 166, 0, 0.616);
+  // box-shadow: 0 2px 800px rgba(255, 255, 255, 0.37);
+  text-align: center;
+  // border-radius: 10px;
+
+  .promos-title {
+    font-size: xx-large;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+
+  .promos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+    padding: 0;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .promos-card {
+    // background-color: rgba(0, 31, 134, 0.103);
+    border-radius: 20px;
+    padding: 10px;
+    // box-shadow: 0 2px 800px rgba(255, 255, 255, 0.3);
+    width: 100%;
+    max-width: 280px;
+    transition: transform 0.2s ease;
+    text-align: center;
+    color: #000000;
+
+    .promos-producto-img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      object-fit: cover;
+      max-height: 100px;
+
+      @media (max-width: 600px) {
+        max-height: 80px;
+      }
+    }
+
+    .promos-producto-title {
+      font-size: medium;
+      margin: 10px 0;
+      color: #fffffe;
+
+      @media (max-width: 600px) {
+        font-size: small;
+        margin: 5px 0;
+      }
+    }
+
+    .promos-info {
+      font-size: small;
+      color: #ccc;
+      margin-bottom: 10px;
+
+      p {
+        margin: 0;
+
+        @media (max-width: 600px) {
+          font-size: x-small;
+        }
+      }
+    }
+
+    .carousel-image {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      object-fit: cover;
+
+      @media (max-width: 1024px) {
+        max-height: 250px;
+      }
+
+      @media (max-width: 600px) {
+        max-height: 200px;
+      }
+    }
+
+    .comments-section {
+      ul {
+        list-style-type: none;
+        padding: 0;
+        font-size: x-small;
+
+        li {
+          color: #ffe7e7;
+          margin-bottom: 5px;
+
+          @media (max-width: 600px) {
+            font-size: xx-small;
+          }
+        }
+      }
+    }
+
+    .slick-slider {
+      width: 100%;
+
+      .slick-list {
+        padding: 0;
+      }
+
+      .slick-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .carousel-image {
+        width: 100%;
+        object-fit: cover;
+
+        @media (max-width: 1024px) {
+          max-height: 700px;
+        }
+
+        @media (max-width: 600px) {
+          max-height: 400px;
+        }
+      }
+    }
+  }
+}

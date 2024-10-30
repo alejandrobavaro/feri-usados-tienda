@@ -1,0 +1,94 @@
+/* Asegúrate de que no haya margen o padding en el body y html */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; // Para manejar correctamente los bordes y paddings
+}
+
+/* Estilos del header */
+.header {
+  background-color: rgba(255, 217, 0, 0.568);
+  // background-image: url(../../../../img/00-fondos/IMG-20240401-WA0023.jpeg);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  // border-bottom: 5px dotted rgba(255, 238, 0, 0.5); // Mantener color sin variables
+  box-sizing: border-box; // Asegura que los bordes se manejen correctamente
+  
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .logoHeader {
+      max-width: 150px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px; // Ajusta el padding interno de la barra de navegación
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    font-size: large;
+
+
+    .nav-link {
+    font-weight: bolder;
+      color: #000000; // Texto blanco
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #464646; // Color primario sin variables
+      }
+    }
+  }
+
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .auth-icon {
+      color: #c0c0c0; // Blanco
+  
+        transition: color 0.3s ease;
+
+      &:hover {
+        color: #7a7a7a; // Color de acento
+      }
+    }
+  }
+
+//-----------BOTON MENU HAMBURGUESA----------//
+  .menu-icon {
+     font-size: xx-large;
+    color: #000000; 
+    // // border: #000000 dotted 1px;
+    // border-radius: 10px;
+    padding: 5px;
+  }
+
+  .auth-welcome-container {
+    display: flex;
+    align-items: center;
+    color: #b1b1b1; // Blanco
+    font-size: large;
+
+    }
+  }
+

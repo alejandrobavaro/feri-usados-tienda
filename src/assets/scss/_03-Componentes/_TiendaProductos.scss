@@ -1,0 +1,98 @@
+// Contenedor de productos
+.productos-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px; // Espaciado reducido entre las tarjetas
+  box-shadow: 0 10px 30px rgb(255, 205, 148);
+}
+
+// Tarjeta de producto
+.producto-card {
+  flex: 1 1 calc(20% - 15px); // Ajustar el ancho para reflejar el nuevo gap
+  max-width: 200px;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 12px; // Reducir el padding general
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgb(255, 205, 148);
+  }
+}
+
+// Imagen del producto
+.producto-image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Título del producto
+.producto-title {
+
+  font-size: x-small; // Tamaño ligeramente reducido
+  color: #000000;
+  margin: 4px 0; // Reducir margen vertical
+}
+
+// Categoría del producto
+.producto-category {
+  font-size: 0.85rem;
+  color: #000000;
+  margin: 3px 0; // Reducir margen
+}
+
+// Descripción del producto
+.producto-description {
+  box-shadow: 0 10px 30px rgb(255, 205, 148);
+  border-radius: 50%;
+  font-size: xx-small;
+  color: #000000;
+  margin: 6px 0; // Espacio reducido entre descripción y precio
+}
+
+// Precio del producto
+.producto-price {
+  font-size: small;
+  color: #000000;
+  margin: 5px 0; // Reducir margen inferior
+}
+
+// Botón de compra
+.producto-button {
+  background-color: #7c660288;
+  border: none;
+  color: #ffffff;
+  padding: 4px 8px; // Ajuste en padding
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 0.8rem; // Tamaño de fuente ligeramente reducido
+
+  &:hover {
+    background-color: #ffd9006c;
+  }
+}
+
+// Etiqueta de oferta
+.oferta-tag {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  background-color: #000000ab;
+  color: #000000;
+  padding: 1px 4px; // Reducir padding para ajustarse al nuevo estilo
+  border-radius: 5px;
+  font-size: x-small;
+  z-index: 1000;
+}

@@ -1,0 +1,154 @@
+//---------overlay de autenticación--------------------//
+.auth-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(131, 80, 165, 0.938);
+  z-index: 1000;
+}
+
+//---------contenedor de autenticación--------------------//
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+
+  .auth-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(132, 0, 255, 0.308);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(238, 182, 255, 0.7); // Neón amarillo
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    position: relative;
+   
+
+    //---------imagen de autenticación--------------------//
+    .auth-image {
+      width: 50px;
+      height: auto;
+      margin: 1rem 0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      filter: drop-shadow(0px 0px 8px #cb94ff); 
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    //---------formulario de autenticación--------------------//
+    .auth-form {
+      flex: 1;
+      width: 100%;
+
+      h2 {
+        margin-bottom: 1.5rem;
+        color: #ebd3ff; 
+        text-transform: none;
+        font-size: 1.8rem;
+      }
+
+      input {
+        width: 100%;
+        padding: 0.75rem;
+        margin-bottom: 1rem;
+        border: 3px solid #ffffff7e; // Neón rosa
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #000000;
+    
+
+        &:focus {
+          outline: none;
+          border-color: #e89cff; 
+          box-shadow: 0 0 8px #e3a8ff;
+        }
+      }
+
+      button {
+        width: 100%;
+        padding: 0.75rem;
+        background-color: #ffffff62; // Neón rosa
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        text-transform: none;
+
+        &:hover {
+          background-color: #7200a7;
+        }
+      }
+    }
+
+    //---------enlaces de autenticación--------------------//
+    .auth-links {
+      margin-top: 1rem;
+
+      p {
+        color: #ffffff;
+        font-size: 0.9rem;
+
+        a {
+          color: #d096ff;  
+          text-decoration: none;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: #c88dff;
+          }
+        }
+      }
+    }
+
+    @media (min-width: 768px) {
+      flex-direction: row; // Volver a la dirección de fila en pantallas grandes
+
+      .auth-image {
+        margin: 20px;
+        border-radius: 50px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.467);
+      }
+    }
+  }
+}
+
+/*---------------------Loading Spinner------------------------*/
+.loading-spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+
+  .spinner {
+    width: 60px;
+    height: 60px;
+    border: 8px solid rgba(30, 4, 78, 0.2);
+    border-radius: 50%;
+    border-top: 8px solid #9900ff; // Neón rosa
+    animation: spin 1.5s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
