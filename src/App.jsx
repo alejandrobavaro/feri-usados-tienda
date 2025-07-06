@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //------------ESTILOS--------------//
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "./assets/scss/_01-General/_BodyIndexApp.scss";
+import "./assets/scss/_01-General/_App.scss";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css"; 
 import "./assets/scss/_01-General/_Toastify.scss"; 

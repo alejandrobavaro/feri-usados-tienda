@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Set de Copas Elegantes",
-    "imagen portada": "/img/promos/copas_elegantes.jpg",
+    "imagen portada": "/img/06-tienda/tienda1-a.png",
     "tipo": "Hogar",
     "categoria": "Cristalería",
     "precio_original": "3000",
@@ -13,14 +13,14 @@
       "Perfectas para cenas especiales y reuniones."
     ],
     "imagenes": [
-      "/img/promos/copas_elegantes1.jpg",
-      "/img/promos/copas_elegantes2.jpg"
+      "/img/06-tienda/tienda1-b.png",
+      "/img/06-tienda/tienda1-c.png"
     ]
   },
   {
     "id": 2,
     "nombre": "Sillón de Estilo Vintage",
-    "imagen portada": "/img/promos/sillon_vintage.jpg",
+    "imagen portada": "/img/06-tienda/tienda2-a.png",
     "tipo": "Muebles",
     "categoria": "Sala",
     "precio_original": "9500",
@@ -31,14 +31,14 @@
       "Con descuento especial del 20%."
     ],
     "imagenes": [
-      "/img/promos/sillon_vintage1.jpg",
-      "/img/promos/sillon_vintage2.jpg"
+      "/img/06-tienda/tienda2-b.png",
+      "/img/06-tienda/tienda2-c.png"
     ]
   },
   {
     "id": 3,
     "nombre": "Juego de Vajilla Moderna",
-    "imagen portada": "/img/promos/vajilla_moderna.jpg",
+    "imagen portada": "/img/06-tienda/tienda3-a.png",
     "tipo": "Hogar",
     "categoria": "Vajilla",
     "precio_original": "5000",
@@ -49,14 +49,14 @@
       "Estilo minimalista, fácil de combinar con cualquier decoración."
     ],
     "imagenes": [
-      "/img/promos/vajilla_moderna1.jpg",
-      "/img/promos/vajilla_moderna2.jpg"
+      "/img/06-tienda/tienda3-b.png",
+      "/img/06-tienda/tienda3-c.png"
     ]
   },
   {
     "id": 4,
     "nombre": "Lámpara de Mesa Industrial",
-    "imagen portada": "/img/promos/lampara_industrial.jpg",
+    "imagen portada": "/img/06-tienda/tienda4-a.png",
     "tipo": "Iluminación",
     "categoria": "Lámparas de mesa",
     "precio_original": "3200",
@@ -67,14 +67,14 @@
       "¡Aprovecha el descuento del 30%!"
     ],
     "imagenes": [
-      "/img/promos/lampara_industrial1.jpg",
-      "/img/promos/lampara_industrial2.jpg"
+      "/img/06-tienda/tienda4-b.png",
+      "/img/06-tienda/tienda4-c.png"
     ]
   },
   {
     "id": 5,
     "nombre": "Juguetes Didácticos de Madera",
-    "imagen portada": "/img/promos/juguetes_madera.jpg",
+    "imagen portada": "/img/06-tienda/tienda5-a.png",
     "tipo": "Infantil",
     "categoria": "Juguetes",
     "precio_original": "1800",
@@ -85,14 +85,14 @@
       "Promoción especial 3x2 en juguetes seleccionados."
     ],
     "imagenes": [
-      "/img/promos/juguetes_madera1.jpg",
-      "/img/promos/juguetes_madera2.jpg"
+      "/img/06-tienda/tienda5-b.png",
+      "/img/06-tienda/tienda5-c.png"
     ]
   },
   {
     "id": 6,
     "nombre": "Espejo Decorativo Vintage",
-    "imagen portada": "/img/promos/espejo_vintage.jpg",
+    "imagen portada": "/img/06-tienda/tienda6-a.png",
     "tipo": "Decoración",
     "categoria": "Espejos",
     "precio_original": "6000",
@@ -103,8 +103,8 @@
       "Oferta única con descuento del 25%."
     ],
     "imagenes": [
-      "/img/promos/espejo_vintage1.jpg",
-      "/img/promos/espejo_vintage2.jpg"
+      "/img/06-tienda/tienda6-b.png",
+      "/img/06-tienda/tienda6-c.png"
     ]
   }
 ]

@@ -9,9 +9,9 @@ function MainContent() {
   const [email, setEmail] = useState("");
 
   const images = [
-    "./img/03-img-cuadradas/banner-product-1.jpg",
-    "./img/03-img-cuadradas/banner-product-2.jpg",
-    "./img/03-img-cuadradas/banner-product-3.jpg",
+    "/public/img/06-tienda/tienda1-a.png",
+    "/public/img/06-tienda/tienda2-a.png",
+    "/public/img/06-tienda/tienda3-a.png",
   ];
 
   const settings = {
@@ -56,14 +56,14 @@ function MainContent() {
         <h2 className="sectionTitle">Ofertas de la Semana</h2>
         <div className="offersGrid">
           <div className="offerItem">
-            <img src="./img/03-img-cuadradas/used-product-1.jpg" alt="Producto Usado 1" className="offerImage" />
+            <img src="/public/img/06-tienda/tienda9-a.png" alt="Producto Usado 1" className="offerImage" />
             <h3 className="offerTitle">Sillón Vintage</h3>
             <p className="offerDescription">
               Sillón de época en excelente estado. Ideal para decoraciones rústicas.
             </p>
           </div>
           <div className="offerItem">
-            <img src="./img/03-img-cuadradas/used-product-2.jpg" alt="Producto Usado 2" className="offerImage" />
+            <img src="/public/img/06-tienda/tienda10-a.png" alt="Producto Usado 2" className="offerImage" />
             <h3 className="offerTitle">Mesa de Madera Reciclada</h3>
             <p className="offerDescription">
               Mesa construida con madera reciclada. Perfecta para comedor o sala de estar.
@@ -90,17 +90,17 @@ function MainContent() {
         <h2 className="sectionTitle">Novedades en Productos Usados</h2>
         <div className="productsGrid">
           <div className="productItem">
-            <img src="./img/03-img-cuadradas/used-product-3.jpg" alt="Producto Usado 3" className="productImage" />
+            <img src="/public/img/06-tienda/tienda11-a.png" alt="Producto Usado 3" className="productImage" />
             <h3 className="productTitle">Lámpara de Pie Retro</h3>
             <p className="productDescription">Lámpara de pie vintage, en perfecto estado.</p>
           </div>
           <div className="productItem">
-            <img src="./img/03-img-cuadradas/used-product-4.jpg" alt="Producto Usado 4" className="productImage" />
+            <img src="/public/img/06-tienda/tienda13-a.png" alt="Producto Usado 4" className="productImage" />
             <h3 className="productTitle">Cuadro Decorativo Clásico</h3>
             <p className="productDescription">Cuadro con marco de madera, ideal para decoración clásica.</p>
           </div>
           <div className="productItem">
-            <img src="./img/03-img-cuadradas/used-product-5.jpg" alt="Producto Usado 5" className="productImage" />
+            <img src="/public/img/06-tienda/tienda14-a.png" alt="Producto Usado 5" className="productImage" />
             <h3 className="productTitle">Reloj de Pared Antiguo</h3>
             <p className="productDescription">Reloj de pared de colección, estilo vintage.</p>
           </div>
